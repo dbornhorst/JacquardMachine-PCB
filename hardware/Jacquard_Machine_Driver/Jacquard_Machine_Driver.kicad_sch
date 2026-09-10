@@ -3880,6 +3880,16 @@
 		)
 		(uuid "1b4adef9-7f27-4eac-af22-ca9a15d2659d")
 	)
+	(text "OUT"
+		(exclude_from_sim no)
+		(at 109.22 154.178 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "2984fddf-fa3b-4897-a233-ccbce32295f2")
+	)
 	(text "INDICATOR LEDs\nDISCONNECT\nJUMPER"
 		(exclude_from_sim no)
 		(at 73.914 106.172 0)
@@ -3956,6 +3966,16 @@
 			(justify left bottom)
 		)
 		(uuid "a33be033-1fea-4f6d-9e7d-8f93070600c7")
+	)
+	(text "IN"
+		(exclude_from_sim no)
+		(at 25.654 154.178 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "c28c5318-12a0-47c8-a884-b73a179497f2")
 	)
 	(text "12V INPUT"
 		(exclude_from_sim no)
@@ -6498,6 +6518,16 @@
 		)
 		(uuid "28774ed5-7640-473f-aa54-105fc6d14600")
 	)
+	(label "SRCLK_IN"
+		(at 40.64 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33894a48-f5b1-4396-a8ff-77c38af0aac5")
+	)
 	(label "SOLENOID_18"
 		(at 336.55 166.37 180)
 		(effects
@@ -6858,6 +6888,16 @@
 		)
 		(uuid "cf2c61c8-092b-43d4-bb19-f25c2b86d827")
 	)
+	(label "LATCH_IN"
+		(at 40.64 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1eedfc2-74b3-4861-b408-0b845928bb3e")
+	)
 	(label "SOLENOID_9"
 		(at 271.78 91.44 0)
 		(effects
@@ -6982,7 +7022,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 149.86 0)
+		(at 120.65 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6990,7 +7030,7 @@
 		(dnp no)
 		(uuid "08905502-cdb4-4700-8dbb-2c19115655f7")
 		(property "Reference" "#PWR06"
-			(at 114.3 156.21 0)
+			(at 120.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,7 +7039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.427 154.2542 0)
+			(at 120.777 154.2542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 149.86 0)
+			(at 120.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 149.86 0)
+			(at 120.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 149.86 0)
+			(at 120.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7436,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C30734"
 			(at 344.17 171.45 0)
 			(effects
 				(font
@@ -7762,7 +7802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu #" " 0402WGF1000TCE"
+		(property "Manu #" "0402WGF1000TCE"
 			(at 88.9 163.83 0)
 			(effects
 				(font
@@ -7773,24 +7813,6 @@
 		)
 		(property "Manu." "UNI-ROYAL(Uniroyal Elec)"
 			(at 88.9 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 88.9 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Page" ""
-			(at 88.9 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8668,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 114.3 147.32 0)
+		(at 120.65 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8654,7 +8676,7 @@
 		(dnp no)
 		(uuid "5c08a883-aecb-4377-b38e-cfcbb023ab69")
 		(property "Reference" "C3"
-			(at 108.2601 146.3405 0)
+			(at 114.6101 146.3405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8663,7 +8685,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 106.9968 148.7928 0)
+			(at 113.3468 148.7928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +8694,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,7 +8712,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors"
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,7 +8721,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +8730,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659"
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,7 +8739,7 @@
 			)
 		)
 		(property "Package" "0402 "
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +8748,7 @@
 			)
 		)
 		(property "Manu." "Samsung Electro-Mechanics"
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8757,7 @@
 			)
 		)
 		(property "Manu #" "CL05B104KO5NNNC"
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +8766,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +8775,7 @@
 			)
 		)
 		(property "Digikey Page" ""
-			(at 114.3 147.32 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D"
+		(property "Link" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A225KBQNNNE?qs=xZ%2FP%252Ba9zWqaBMj9IHA8rdw%3D%3D"
 			(at 50.8 81.28 0)
 			(effects
 				(font
@@ -9516,7 +9538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu #" "CL31B225KBHNNNE"
+		(property "Manu #" "CL21A225KBQNNNE"
 			(at 50.8 81.28 0)
 			(effects
 				(font
@@ -9525,25 +9547,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C50254"
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Page" ""
+		(property "LCSC" "C377773"
 			(at 50.8 81.28 0)
 			(effects
 				(font
@@ -9569,7 +9573,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 144.78 0)
+		(at 120.65 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9577,7 +9581,7 @@
 		(dnp no)
 		(uuid "88bab420-8076-4f82-90b4-6d1c958a4840")
 		(property "Reference" "#PWR05"
-			(at 114.3 148.59 0)
+			(at 120.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9590,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.046 140.716 0)
+			(at 120.396 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +9598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 144.78 0)
+			(at 120.65 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 144.78 0)
+			(at 120.65 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 144.78 0)
+			(at 120.65 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10157,25 +10161,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Page" ""
+		(property "LCSC" "C22371890"
 			(at 66.04 76.2 0)
 			(effects
 				(font
@@ -10702,7 +10688,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C30734"
 			(at 344.17 46.99 0)
 			(effects
 				(font
@@ -12156,7 +12142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu #" " 0402WGF1000TCE"
+		(property "Manu #" "0402WGF1000TCE"
 			(at 85.09 161.29 0)
 			(effects
 				(font
@@ -12167,24 +12153,6 @@
 		)
 		(property "Manu." "UNI-ROYAL(Uniroyal Elec)"
 			(at 85.09 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 85.09 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Page" ""
-			(at 85.09 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12471,24 +12439,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" ""
-			(at 344.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Page" ""
-			(at 344.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "THT,p=2.54mm"
 			(at 344.17 110.49 0)
 			(effects
@@ -12507,7 +12457,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C30734"
 			(at 344.17 110.49 0)
 			(effects
 				(font
@@ -12688,7 +12638,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C151075"
 			(at 52.07 31.75 90)
 			(effects
 				(font
@@ -12698,24 +12648,6 @@
 			)
 		)
 		(property "Alt. Link" "https://www.mouser.com/ProductDetail/Littelfuse/01110501Z?qs=Ql%252B1sS8nYriZVK%2FyEjYMGg%3D%3D"
-			(at 52.07 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 52.07 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Page" ""
 			(at 52.07 31.75 90)
 			(effects
 				(font
@@ -12867,7 +12799,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C89123"
 			(at 21.59 31.75 0)
 			(effects
 				(font
