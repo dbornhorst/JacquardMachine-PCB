@@ -5,9 +5,11 @@
 	(uuid "2012002c-7ba5-4575-b93c-d8b37d21ac31")
 	(paper "USLedger")
 	(title_block
-		(rev "v.01")
-		(company "Meow Wolf")
-		(comment 1 "Daniel Bornhorst")
+		(title "Jaquard Machine Driver")
+		(date "2026-09-15")
+		(rev "v1.0")
+		(company "Daniel Bornhorst")
+		(comment 1 "dbornhorst@gmail.com")
 	)
 	(lib_symbols
 		(symbol "0_connector:Molex Ultra-Fit 2pos IN"
